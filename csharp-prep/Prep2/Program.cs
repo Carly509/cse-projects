@@ -44,7 +44,7 @@ class Program
         string sign = "";
         if (letter == "A")
         {
-            sign = ""; // No A+
+            sign = "";
         }
         else if (letter == "F")
         {
@@ -64,7 +64,7 @@ class Program
         }
 
 
-        if (letter != "F") // No sign for F
+        if (letter != "F")
         {
             Console.WriteLine($"Your final grade is {letter}{sign}.");
         }
