@@ -1,7 +1,6 @@
 using System;
 
-namespace EnhancedJournalApp
-{
+
     public class JournalEntry
     {
         public string Date;
@@ -84,4 +83,3 @@ namespace EnhancedJournalApp
             }
         }
     }
-}
