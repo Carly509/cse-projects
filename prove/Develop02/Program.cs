@@ -26,7 +26,7 @@ public class Journal
 
     public Journal()
     {
-        entries = new JournalEntry[100];  // Assume max 100 entries
+        entries = new JournalEntry[100];
         entryCount = 0;
         prompts = new string[]
         {
